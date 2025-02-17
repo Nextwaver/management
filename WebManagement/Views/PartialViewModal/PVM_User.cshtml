@@ -1,0 +1,253 @@
+﻿@model Account
+
+@using (Html.BeginForm(FormMethod.Post, new { @id = "CNform" }))
+{
+    @Html.HiddenFor(model => model.ID, new { id = "ID" })
+    @Html.HiddenFor(model => model.SpaceUser, new { id = "SPACE_USER" })
+    <div class="widget-box transparent">
+        <!-- #section:custom/widget-box.options -->
+        <div class="widget-header">
+            <h5 class="widget-title bigger lighter">
+                <i class="ace-icon fa fa-user"></i>
+                ข้อมูลทั่วไป
+            </h5>
+        </div>
+        <!-- /section:custom/widget-box.options -->
+        <table style="width:100%">
+            <tr><td colspan="5" style="height:20px"></td></tr>
+            <tr>
+                <td style="width:20px"></td>
+                <td><label>คำนำหน้า</label></td>
+                <td style="width:5px"></td>
+                @*
+                    <td><input type="text" id="title" placeholder="คำนำหน้า" style="width:100%" value="" /></td>*@
+                <td>
+                    @Html.TextBoxFor(model => model.Titile, new { @class = "form-control", id = "txb_title", placeholder = "คำนำหน้า" })
+                </td>
+                <td style="width:20px"></td>
+            </tr>
+            <tr><td colspan="5" style="height:5px"></td></tr>
+            <tr>
+                <td style="width:20px"></td>
+                <td><label>ชื่อ</label></td>
+                <td style="width:5px"></td>
+                @*
+                    <td><input type="text" id="firstName" placeholder="ชื่อ" style="width:100%" /></td>*@
+                <td>
+                    @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", id = "txb_firstName", placeholder = "ชื่อ" })
+                </td>
+                <td style="width:20px"></td>
+            </tr>
+            <tr><td colspan="5" style="height:5px"></td></tr>
+            <tr>
+                <td style="width:20px"></td>
+                <td><label>นามสกุล</label></td>
+                <td style="width:5px"></td>
+                @*
+                    <td><input type="text" id="lastName" placeholder="นามสกุล" style="width:100%" /></td>*@
+                <td>
+                    @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", id = "txb_lastName", placeholder = "นามสกุล" })
+                </td>
+                <td style="width:20px"></td>
+            </tr>
+            <tr><td colspan="5" style="height:5px"></td></tr>
+            <tr>
+                <td style="width:20px"></td>
+                <td><label>ตำแหน่ง</label></td>
+                <td style="width:5px"></td>
+                <td>
+                    <select id="position" class="multiselect" style="width:100%">
+                        <option value="">-- โปรดเลือก --</option>
+                        @*
+                            <option ng-value="x.CODE" ng-repeat="x in POSITION">
+                                {{ x.NAME }}
+                            </option>*@
+                        <option ng-value="x.CODE" ng-repeat="x in POSITION">
+                            Administrator
+                        </option>
+                    </select>
+                </td>
+                <td style="width:20px"></td>
+            </tr>
+            <tr><td colspan="5" style="height:20px"></td></tr>
+        </table>
+    </div>
+    <div class="widget-box transparent">
+        <!-- #section:custom/widget-box.options -->
+        <div class="widget-header">
+            <h5 class="widget-title bigger lighter">
+                <i class="ace-icon fa fa-cog"></i>
+                ข้อมูลระบบ
+            </h5>
+        </div>
+        <!-- /section:custom/widget-box.options -->
+        <div class="widget-body">
+            <table style="width:100%">
+                <tr><td colspan="5" style="height:20px"></td></tr>
+                <tr>
+                    <td style="width:20px"></td>
+                    <td><label>ชื่อผู้ใช้งาน</label></td>
+                    <td style="width:5px"></td>
+                    @*
+                        <td><input type="text" id="username" placeholder="UserName" style="width:100%" /></td>*@
+                    <td>
+                        @Html.TextBoxFor(model => model.Username, new { @class = "form-control", id = "txb_username", placeholder = "UserName" })
+                    </td>
+                    <td style="width:20px"></td>
+                </tr>
+                <tr><td colspan="5" style="height:5px"></td></tr>
+                <tr>
+                    <td style="width:20px"></td>
+                    <td><label>รหัสผ่าน</label></td>
+                    <td style="width:5px"></td>
+                    @*
+                        <td><input type="password" id="password" placeholder="Password" style="width:100%" /></td>*@
+                    <td>
+                        @Html.TextBoxFor(model => model.Password, new { @class = "form-control", type = "password", id = "txb_password", placeholder = "Password" })
+                    </td>
+                    <td style="width:20px"></td>
+                </tr>
+                <tr><td colspan="5" style="height:5px"></td></tr>
+                <tr>
+                    <td style="width:20px"></td>
+                    <td><label>ยืนยันรหัสผ่าน</label></td>
+                    <td style="width:5px"></td>
+                    @*
+                        <td><input type="password" id="password_cof" placeholder="Password" style="width:100%" /></td>*@
+                    <td>
+                        @Html.TextBoxFor(model => model.Password_cof, new { @class = "form-control", type = "password", id = "txb_password_cof", placeholder = "Password" })
+                    </td>
+                    <td style="width:20px"></td>
+                </tr>
+                <tr><td colspan="5" style="height:20px"></td></tr>
+            </table>
+        </div>
+    </div>
+}
+
+@*<div id="loading" style="display: none; margin-top: 50px">
+        <center>
+            <h1 class="bigger"><i class="ace-icon fa fa-spinner fa-spin orange"></i></h1>
+            <h3>
+                อยู่ระหว่างประมวลผลโปรดรอ...
+            </h3>
+        </center>
+    </div>*@
+
+<script type="text/javascript">
+    var ID, url, SPACE_USER;
+ 
+    function StartPratialView(_url) {
+        url = _url;
+        ID = getParamValue(url, "ID");
+        SPACE_USER = getParamValue(url, "SPACE_USER");
+
+        $("#ID").val(ID);
+        $("#SPACE_USER").val(SPACE_USER);
+        if (ID != null) fnLoadDataUser(ID);
+    }
+
+    function LoadDataPosition() {
+        //$.ajax({
+        //    type: 'GET',
+        //    cache: false,
+        //    url: '/Account/LoadDataUser',
+        //    data: "ID=" + ID,
+        //    success: function (data, textStatus, jqXHR) {
+        //        if (data._ErrorMessageModel.code == "OK") {
+        //            $("#title").val(data.titile);
+        //            $("#firstName").val(data.firstName);
+        //            $("#lastName").val(data.lastName);
+        //            $("#position").val(data.position);
+        //            $("#username").val(data.username);
+        //            $("#password").val(data.password);
+        //            $("#password_cof").val(data.password);
+        //        }
+        //        else {
+        //            showmessage(data._ErrorMessageModel.message);
+        //        }
+        //    },
+        //    error: function (jqXHR, textStatus, errorThrown) {
+        //        showmessage(jqXHR, textStatus, errorThrown);
+        //    }
+        //});
+    }
+    function fnLoadDataUser(ID) {
+        $.ajax({
+            type: 'GET',
+            cache: false,
+            url: '/Account/LoadDataUser',
+            data: "ID=" + ID,
+            success: function (data, textStatus, jqXHR) {
+                if (data._ErrorMessageModel.code == "OK") {
+                    $("#txb_title").val(data.titile);
+                    $("#txb_firstName").val(data.firstName);
+                    $("#txb_lastName").val(data.lastName);
+                    $("#txb_position").val(data.position);
+                    $("#txb_username").val(data.username);
+                    $("#txb_password").val(data.password);
+                    $("#txb_password_cof").val(data.password);
+                    $("#txb_username").attr("disabled", true);
+
+                    if (SPACE_USER != "WS" && SPACE_USER != null) {
+                        $("#txb_username").attr("disabled", true);
+                        $("#txb_password").attr("disabled", true);
+                        $("#txb_password_cof").attr("disabled", true);
+                    }
+                }
+                else {
+                    showmessage(data._ErrorMessageModel.message);
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                showmessage(jqXHR, textStatus, errorThrown);
+            }
+        });
+    }
+    function SaveUser() {
+        var ERROR = document.getElementById('ERROR');
+        ERROR.innerHTML = "";
+ 
+        if ($("#txb_title").val() == "") {
+            ERROR.innerHTML = "โปรดระบุตำแหน่ง";
+            return;
+        }
+        if ($("#txb_username").val() == "") {
+            ERROR.innerHTML = "โปรดระบุชื่อผู้ใช้งาน";
+            return;
+        }
+        if ($("#txb_password").val() == "") {
+            ERROR.innerHTML = "โปรดระบุรหัสผ่าน";
+            return;
+        }
+        if ($("#txb_password_cof").val() == "") {
+            ERROR.innerHTML = "โปรดระบุยืนยันรหัสผ่าน";
+            return;
+        }
+        if ($("#txb_password").val() != $("#txb_password_cof").val()) {
+            ERROR.innerHTML = "รหัสผ่าน และ ยืนยันรหัสผ่าน ต้องเหมือนกัน";
+            return;
+        }
+
+        var data = $('#CNform').serialize();
+        fnLoadingModal();
+        $.ajax({
+            type: 'POST',
+            cache: false,
+            url: '/Account/SaveUser',
+            data: data,
+            success: function (data, textStatus, jqXHR) {
+                if (data._ErrorMessageModel.code == "OK")
+                    showmessage(data._ErrorMessageModel.message, refreshAllData);
+                else {
+                    ERROR.innerHTML = data._ErrorMessageModel.message;
+                    fnUnLoadingModal();
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+
+            }
+        });
+    }
+
+</script>

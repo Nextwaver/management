@@ -1,0 +1,140 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <StartupObject>WebManagement.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\config.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\css\bootstrap-dialog\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\js\ace\ace.ajax-content.js" />
+    <None Include="wwwroot\assets\js\ace\ace.auto-container.js" />
+    <None Include="wwwroot\assets\js\ace\ace.auto-padding.js" />
+    <None Include="wwwroot\assets\js\ace\ace.js" />
+    <None Include="wwwroot\assets\js\ace\ace.onpage-help.js" />
+    <None Include="wwwroot\assets\js\ace\ace.searchbox-autocomplete.js" />
+    <None Include="wwwroot\assets\js\ace\ace.settings-rtl.js" />
+    <None Include="wwwroot\assets\js\ace\ace.settings-skin.js" />
+    <None Include="wwwroot\assets\js\ace\ace.settings.js" />
+    <None Include="wwwroot\assets\js\ace\ace.sidebar-scroll-1.js" />
+    <None Include="wwwroot\assets\js\ace\ace.sidebar-scroll-2.js" />
+    <None Include="wwwroot\assets\js\ace\ace.sidebar.js" />
+    <None Include="wwwroot\assets\js\ace\ace.submenu-hover.js" />
+    <None Include="wwwroot\assets\js\ace\ace.touch-drag.js" />
+    <None Include="wwwroot\assets\js\ace\ace.widget-box.js" />
+    <None Include="wwwroot\assets\js\ace\ace.widget-on-reload.js" />
+    <None Include="wwwroot\assets\js\ace\elements.aside.js" />
+    <None Include="wwwroot\assets\js\ace\elements.colorpicker.js" />
+    <None Include="wwwroot\assets\js\ace\elements.fileinput.js" />
+    <None Include="wwwroot\assets\js\ace\elements.onpage-help.js" />
+    <None Include="wwwroot\assets\js\ace\elements.scroller.js" />
+    <None Include="wwwroot\assets\js\ace\elements.spinner.js" />
+    <None Include="wwwroot\assets\js\ace\elements.treeview.js" />
+    <None Include="wwwroot\assets\js\ace\elements.typeahead.js" />
+    <None Include="wwwroot\assets\js\ace\elements.wizard.js" />
+    <None Include="wwwroot\assets\js\ace\elements.wysiwyg.js" />
+    <None Include="wwwroot\assets\js\ace\readme" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\buttons.bootstrap.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\buttons.colVis.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\buttons.flash.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\buttons.foundation.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\buttons.html5.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\buttons.jqueryui.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\buttons.print.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\js\dataTables.buttons.js" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Buttons\swf\flashExport.swf" />
+    <None Include="wwwroot\assets\js\dataTables\extensions\Select\js\dataTables.select.js" />
+    <None Include="wwwroot\assets\js\dataTables\jquery.dataTables.bootstrap.js" />
+    <None Include="wwwroot\assets\js\dataTables\jquery.dataTables.js" />
+    <None Include="wwwroot\assets\js\date-time\bootstrap-datepicker.js" />
+    <None Include="wwwroot\assets\js\date-time\bootstrap-datetimepicker.js" />
+    <None Include="wwwroot\assets\js\date-time\bootstrap-timepicker.js" />
+    <None Include="wwwroot\assets\js\date-time\daterangepicker.js" />
+    <None Include="wwwroot\assets\js\date-time\moment.js" />
+    <None Include="wwwroot\assets\js\flot\jquery.flot.js" />
+    <None Include="wwwroot\assets\js\flot\jquery.flot.pie.js" />
+    <None Include="wwwroot\assets\js\flot\jquery.flot.resize.js" />
+    <None Include="wwwroot\assets\js\fuelux\fuelux.spinner.js" />
+    <None Include="wwwroot\assets\js\fuelux\fuelux.tree.js" />
+    <None Include="wwwroot\assets\js\fuelux\fuelux.wizard.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-ar.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-bg.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-ca.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-cn.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-cs.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-de.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-dk.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-el.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-en.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-es.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-fa.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-fi.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-fr.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-gl.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-he.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-hr.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-hu.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-id.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-is.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-it.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-ja.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-kr.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-lt.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-me.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-nl.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-no.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-pl.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-pt-br.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-pt.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-ro.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-ru.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-sk.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-sr-latin.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-sr.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-sv.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-th.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-tr.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-tw.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-ua.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-uk.js" />
+    <None Include="wwwroot\assets\js\jqGrid\i18n\grid.locale-vi.js" />
+    <None Include="wwwroot\assets\js\jqGrid\jquery.jqGrid.js" />
+    <None Include="wwwroot\assets\js\markdown\bootstrap-markdown.js" />
+    <None Include="wwwroot\assets\js\markdown\markdown.js" />
+    <None Include="wwwroot\assets\js\markdown\to-markdown.js" />
+    <None Include="wwwroot\assets\js\x-editable\ace-editable.js" />
+    <None Include="wwwroot\assets\js\x-editable\bootstrap-editable.js" />
+    <None Include="wwwroot\ToolsConfig\command.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EncryptDecrypt">
+      <HintPath>wwwroot\nextwaverDB\EncryptDecrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="NextwaverDB">
+      <HintPath>wwwroot\nextwaverDB\NextwaverDB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

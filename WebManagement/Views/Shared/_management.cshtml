@@ -1,0 +1,203 @@
+﻿<h4 class="pink">
+    <i class="ace-icon fa fa-hand-o-right icon-animated-hand-pointer blue"></i>
+    <a href="#modal-table" role="button" class="green" data-toggle="modal">{{ TITLE }}</a>
+    <table align="right" id="tblGrp" style="display: none">
+        <tr>
+            <td>
+                <label id="grpName">เลขหนังสือ</label>
+            </td>
+            <td style="width: 10px"><font size="4" color="navy">:</font></td>
+            <td>
+                <select class="form-control" id="cbxGRP" style="min-width: 100px" onchange="fnGrpChange()">
+                    <option ng-value="x.VALUE" ng-repeat="x in GROUP" ng-selected="x.VALUE==x.VAL">{{x.TITLE}}</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</h4>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="widget-box widget-color-blue" id="widget-box-9">
+            <div class="widget-header">
+                <h5 class="widget-title">ตัวกรองข้อมูล</h5>
+                <div class="widget-toolbar">
+                    <a href="#" data-action="collapse">
+                        <i class="1 ace-icon fa fa-chevron-up bigger-125"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="widget-body">
+                <div class="widget-main" style="padding:0px">
+                    <div class="widget-box transparent" id="widget-box-12">
+                        <div class="widget-header" style="margin:0px">
+                            <!-- #section:custom/widget-box.tabbed -->
+                            <div class="widget-toolbar no-border">
+                                <ul class="nav nav-tabs" id="myTab">
+                                    <li class="active">
+                                        <a data-toggle="tab" href="#tabpage1">กรองข้อมูลทั่วไป</a>
+                                    </li>
+
+                                    <li>
+                                        <a data-toggle="tab" href="#tabpage2">กรองข้อมูลขั้นสูง</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /section:custom/widget-box.tabbed -->
+                        </div>
+
+                        <div class="widget-body">
+                            <div class="widget-main" style="padding:0px">
+                                <div class="tab-content">
+                                    <div id="tabpage1" class="tab-pane in active">
+                                        <table style="width:100%">
+                                            <tr>
+                                                <td>
+                                                    <table style="width:100%">
+                                                        <tr>
+                                                            <td style="text-align:right"><label ng-show="NSEARCH_COUNT >= 1">{{ NT1 }}</label>&nbsp;</td>
+                                                            <td><input type="text" id="NST01" placeholder="โปรดระบุ" class="form-control" ng-show="NSEARCH_COUNT >= 1" ng-value="NV1" /></td>
+                                                            <td style="width:10px"></td>
+                                                            <td style="text-align:right"><label ng-show="NSEARCH_COUNT >= 2">{{ NT2 }}</label>&nbsp;</td>
+                                                            <td><input type="text" id="NST02" placeholder="โปรดระบุ" class="form-control" ng-show="NSEARCH_COUNT >= 2" ng-value="NV2" /></td>
+                                                            <td style="width:10px"></td>
+                                                            <td style="text-align:right"><label ng-show="NSEARCH_COUNT >= 3">{{ NT3 }}</label>&nbsp;</td>
+                                                            <td><input type="text" id="NST03" placeholder="โปรดระบุ" class="form-control" ng-show="NSEARCH_COUNT >= 3" ng-value="NV3" /></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align:right"><label ng-show="NSEARCH_COUNT >= 4">{{ NT4 }}</label>&nbsp;</td>
+                                                            <td><input type="text" id="NST04" placeholder="โปรดระบุ" class="form-control" ng-show="NSEARCH_COUNT >= 4" ng-value="NV4" /></td>
+                                                            <td style="width:10px"></td>
+                                                            <td style="text-align:right"><label ng-show="NSEARCH_COUNT >= 5">{{ NT5 }}</label>&nbsp;</td>
+                                                            <td><input type="text" id="NST05" placeholder="โปรดระบุ" class="form-control" ng-show="NSEARCH_COUNT >= 5" ng-value="NV5" /></td>
+                                                            <td style="width:10px"></td>
+                                                            <td style="text-align:right"><label ng-show="NSEARCH_COUNT >= 6">{{ NT6 }}</label>&nbsp;</td>
+                                                            <td><input type="text" id="NST06" placeholder="โปรดระบุ" class="form-control" ng-show="NSEARCH_COUNT >= 6" ng-value="NV6" /></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 60px">
+                                                    <button class="btn btn-app btn-success btn-sm" ng-click="fnManagementSearch()">
+                                                        <i class="ace-icon fa fa-search bigger-200"></i>
+                                                        ค้นหา
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="tabpage2" class="tab-pane">
+                                        <table style="width: 100%">
+                                            <tr>
+                                                <td>
+                                                    <table style="width: 100%">
+                                                        <tr>
+                                                            <td></td>
+                                                            <td>
+                                                                <select class="form-control" id="SC01">
+                                                                    <option value="">เลือกคอลัมภ์</option>
+                                                                    <option ng-value="x.NAME" ng-selected="x.NAME==x.VAL1" ng-repeat="x in SEARCH">{{x.TITLE}}</option>
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <input type="text" id="ST01" placeholder="โปรดระบุ" class="form-control" />
+                                                            </td>
+                                                            <td style="width: 50px; text-align: center">and</td>
+                                                            <td>
+                                                                <select class="form-control" id="SC02">
+                                                                    <option value="">เลือกคอลัมภ์</option>
+                                                                    <option ng-value="x.NAME" ng-selected="x.NAME==x.VAL2" ng-sle ng-repeat="x in SEARCH">{{x.TITLE}}</option>
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <input type="text" id="ST02" placeholder="โปรดระบุ" class="form-control" />
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="width: 50px; text-align: center">and</td>
+                                                            <td>
+                                                                <select class="form-control" id="SC03">
+                                                                    <option value="">เลือกคอลัมภ์</option>
+                                                                    <option ng-value="x.NAME" ng-selected="x.NAME==x.VAL3" ng-repeat="x in SEARCH">{{x.TITLE}}</option>
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <input type="text" id="ST03" placeholder="โปรดระบุ" class="form-control" />
+                                                            </td>
+                                                            <td style="width: 50px; text-align: center">and</td>
+                                                            <td>
+                                                                <select class="form-control" id="SC04">
+                                                                    <option value="">เลือกคอลัมภ์</option>
+                                                                    <option ng-value="x.NAME" ng-selected="x.NAME==x.VAL4" ng-repeat="x in SEARCH">{{x.TITLE}}</option>
+                                                                </select>
+                                                            </td>
+
+                                                            <td>
+                                                                <input type="text" id="ST04" placeholder="โปรดระบุ" class="form-control" />
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 60px">
+                                                    <button class="btn btn-app btn-success btn-sm" ng-click="fnManagementSearch()">
+                                                        <i class="ace-icon fa fa-search bigger-200"></i>
+                                                        ค้นหา
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="widget-box widget-color-blue">
+            <div style="margin-bottom: 3px; background-color: #428bca">
+                <button class="btn btn-primary" ng-attr-id="{{ 'tool-' + x.INDEX }}" ng-repeat="x in TOOLS" ng-click="fnClick(x.COFNAME,x.TID,x.CLICK)" title="{{ x.TOOLTIP }}">
+                    <i ng-class="x.IMAGE"></i>
+                    {{ x.TEXT }}
+                </button>
+            </div>
+            <div>
+                <table id="dynamic-table" class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr style="width: 100%">
+                            <th class="center">
+                                <%--<label class="pos-rel">
+                                    <input type="checkbox" class="ace" id="chbHeader" />
+                                    <span class="lbl"></span>
+                                </label>--%>
+                            </th>
+                            <th ng-repeat="y in COLUMN" ng-class="y.CLASS">{{ y.TEXT }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="x in DATA" style="width: 100%">
+                            <td class="center">
+                                <label class="pos-rel">
+                                    <input type="checkbox" class="ace" ng-attr-id="{{ 'row-' + x.RowID }}" />
+                                    <span class="lbl"></span>
+                                </label>
+                            </td>
+                            <td ng-class="y.CLASS" ng-repeat="y in x.COLUMN">
+                                <span ng-class="y.CLASSSTATUS">{{ y.VALUE }}</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loading" style="display: none; margin-top: 50px">
+    <center>
+        <h1 class="bigger"><i class="ace-icon fa fa-spinner fa-spin orange"></i></h1>
+        <h3>
+            อยู่ระหว่างประมวลผลโปรดรอ...
+        </h3>
+    </center>
+</div>

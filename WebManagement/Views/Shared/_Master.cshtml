@@ -1,0 +1,237 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Management</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- bootstrap & fontawesome -->
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/assets/css/font-awesome.css" rel="stylesheet" />
+
+    <!-- text fonts -->
+    <link href="~/assets/css/ace-fonts.css" rel="stylesheet" />
+
+    <!-- ace styles -->
+    <link href="~/assets/css/ace.css" class="ace-main-stylesheet" rel="stylesheet" />
+
+    <!-- ace settings handler -->
+    <script src="~/assets/js/ace-extra.js"></script>
+
+    <script src="~/Custom/custom.css"></script>
+    <script src="~/Custom/custom.js"></script>
+</head>
+<body class="no-skin">
+    <!-- ================================================================ -->
+    <div id="navbar" class="navbar navbar-default ace-save-state navbar-fixed-top">
+        <div class="navbar-container ace-save-state" id="navbar-container">
+            <!-- #section:basics/sidebar.mobile.toggle -->
+            <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+                <span class="sr-only">Toggle sidebar</span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- /section:basics/sidebar.mobile.toggle -->
+            <div class="navbar-header pull-left">
+                <!-- #section:basics/navbar.layout.brand -->
+                <a onclick="location.href='@Url.Action("Index", "Home" )'" ﻿ class="navbar-brand">
+                    <small>
+                        <i class="fa fa-home"></i>
+                        Web Management
+                    </small>
+                </a>
+            </div>
+
+            <!-- #section:basics/navbar.dropdown -->
+            <div class="navbar-buttons navbar-header pull-right" role="navigation">
+                <ul class="nav ace-nav">
+                    <!-- #section:basics/navbar.user_menu -->
+
+                    <li class="light-blue">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                            <table style="width: 100%">
+                                <tr>
+                                    <td style="vertical-align: middle">
+                                        <span style="font-size: 24px">
+                                            <i class="glyphicon glyphicon-user"></i>
+                                        </span>
+                                    </td>
+                                    <td style="width: 5px"></td>
+                                    <td>
+                                        <span class="user-info">
+                                            <small>ยินดีต้อนรับ,</small>
+                                            <label> @HttpContextAccessor.HttpContext.Session.GetString("Username")</label>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+
+                        <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                            <li>
+                                <a asp-area="" asp-controller="Account" asp-action="Signout">
+                                    <i class="ace-icon fa fa-power-off"></i>
+                                    ออกจากระบบ
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /section:basics/navbar.dropdown -->
+        </div><!-- /.navbar-container -->
+    </div>
+
+    <!-- /section:basics/navbar.layout -->
+    <div class="main-container ace-save-state" id="main-container">
+        <script type="text/javascript">
+            try { ace.settings.loadState('main-container') } catch (e) { }
+        </script>
+
+        <!-- #section:basics/sidebar -->
+        <div id="sidebar" class="sidebar responsive ace-save-state sidebar-fixed">
+            <!-- nav-list -->
+            @{
+                Html.RenderPartial("_Navbar");
+            }
+
+            <!-- /.nav-list -->
+            <!-- #section:basics/sidebar.layout.minimize -->
+            <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+                <i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+            </div>
+
+            <!-- /section:basics/sidebar.layout.minimize -->
+        </div>
+
+        <!-- /section:basics/sidebar -->
+        <div class="main-content">
+            <div class="main-content-inner">
+                <!-- #section:basics/content.breadcrumbs -->
+                @*<div class="breadcrumbs ace-save-state breadcrumbs-fixed" id="breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <i class="ace-icon fa fa-home home-icon"></i>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Other Pages</a>
+                        </li>
+                        <li class="active">Blank Page</li>
+                    </ul>*@
+            </div>
+            <!-- /.breadcrumb -->
+            <!-- /section:basics/content.breadcrumbs -->
+            <div class="page-content">
+                <!-- /section:settings.box -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        @RenderBody()
+
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.page-content -->
+        </div>
+    </div><!-- /.main-content -->
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+
+            <div class="footer-inner">
+                <!-- #section:basics/footer -->
+                <div class="footer-content">
+                    <span class="bigger-120">
+                        <span class="blue bolder">Ace</span>
+                        Application &copy; 2013-2014
+                    </span>
+                    &nbsp; &nbsp;
+                    <span class="action-buttons">
+                        <a href="#">
+                            <i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
+                        </a>
+                        <a href="#">
+                            <i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
+                        </a>
+                        <a href="#">
+                            <i class="ace-icon fa fa-rss-square orange bigger-150"></i>
+                        </a>
+                    </span>
+                </div>
+                <!-- /section:basics/footer -->
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+        <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+    </a>
+
+    <!-- ================================================================ -->
+    <script src="~/assets/js/jquery.js"></script>
+    @*
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>*@
+    <script src="~/assets/js/bootstrap.js"></script>
+
+    <!-- page specific plugin scripts -->
+    <script src="~/assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="~/assets/js/dataTables/jquery.dataTables.bootstrap.js"></script>
+    <script src="~/assets/js/dataTables/extensions/Buttons/js/dataTables.buttons.js"></script>
+    <script src="~/assets/js/dataTables/extensions/Buttons/js/buttons.flash.js"></script>
+    <script src="~/assets/js/dataTables/extensions/Buttons/js/buttons.html5.js"></script>
+    <script src="~/assets/js/dataTables/extensions/Buttons/js/buttons.print.js"></script>
+    <script src="~/assets/js/dataTables/extensions/Buttons/js/buttons.colVis.js"></script>
+    <script src="~/assets/js/dataTables/extensions/Select/js/dataTables.select.js"></script>
+
+    <!-- page specific plugin scripts -->
+    <script src="~/assets/js/jquery.nestable.js"></script>
+    <script src="~/assets/js/date-time/bootstrap-datepicker.js"></script>
+    <script src="~/assets/js/date-time/bootstrap-timepicker.js"></script>
+    <script src="~/assets/js/date-time/moment.js"></script>
+    <script src="~/assets/js/date-time/daterangepicker.js"></script>
+    <script src="~/assets/js/date-time/bootstrap-datetimepicker.js"></script>
+
+    <!-- ace scripts -->
+    <script src="~/assets/js/ace/elements.scroller.js"></script>
+    <script src="~/assets/js/ace/elements.colorpicker.js"></script>
+    <script src="~/assets/js/ace/elements.fileinput.js"></script>
+    <script src="~/assets/js/ace/elements.typeahead.js"></script>
+    <script src="~/assets/js/ace/elements.wysiwyg.js"></script>
+    <script src="~/assets/js/ace/elements.spinner.js"></script>
+    <script src="~/assets/js/ace/elements.treeview.js"></script>
+    <script src="~/assets/js/ace/elements.wizard.js"></script>
+    <script src="~/assets/js/ace/elements.aside.js"></script>
+    <script src="~/assets/js/ace/ace.js"></script>
+    <script src="~/assets/js/ace/ace.ajax-content.js"></script>
+    <script src="~/assets/js/ace/ace.touch-drag.js"></script>
+    <script src="~/assets/js/ace/ace.sidebar.js"></script>
+    <script src="~/assets/js/ace/ace.sidebar-scroll-1.js"></script>
+    <script src="~/assets/js/ace/ace.submenu-hover.js"></script>
+    <script src="~/assets/js/ace/ace.widget-box.js"></script>
+    <script src="~/assets/js/ace/ace.settings.js"></script>
+    <script src="~/assets/js/ace/ace.settings-rtl.js"></script>
+    <script src="~/assets/js/ace/ace.settings-skin.js"></script>
+    <script src="~/assets/js/ace/ace.widget-on-reload.js"></script>
+    <script src="~/assets/js/ace/ace.searchbox-autocomplete.js"></script>
+    <script src="~/assets/js/bootbox.js"></script>
+    <!-- inline scripts related to this page -->
+
+    @*
+        <script src="~/js/site.js" asp-append-version="true"></script>*@
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

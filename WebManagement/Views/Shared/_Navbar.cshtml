@@ -1,0 +1,74 @@
+﻿<!-- nav-list -->
+@{
+    MenuList MenuConfig = new MenuList();
+    MenuConfig = WebManagement.Models.MenuConfigs.MenuConfig;
+}
+<ul class="nav nav-list">
+    @foreach (var Menu in MenuConfig.Menu)
+    {
+    <li class="@Menu.Active">
+        @if (Menu.Class == "")
+        {
+        <a href='@Url.Action("RedirecToPageView", "PageView", new { Path = @Menu.Path })'>
+            <i class="@Menu.Icon"></i>
+            @Menu.Name
+            @if (Menu.IsSub != "0")
+            {
+                <b class="arrow fa fa-angle-down"></b>
+            }
+        </a>
+        }
+        else
+          {
+            <a href = "@Menu.Path" class="@Menu.Class">
+                <i class="@Menu.Icon"></i>
+                <span class="menu-text">
+                    @Menu.Name
+                </span>
+                @if (Menu.IsSub != "0")
+                {
+                    <b class="arrow fa fa-angle-down"></b>
+                }
+            </a>
+        }
+ 
+        @if (Menu.IsSub != "0")
+        {
+            <b class="arrow"></b>
+        }
+        @if (Menu.IsSub != "0")
+        {
+            <ul class="submenu">
+                @foreach (var SubMenuList in Menu.SubMenuList)
+                {
+                    @foreach (var SubMenu in SubMenuList.SubMenu)
+                    {
+                        <li>
+                            <a href="#" class="dropdown-toggle">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                @SubMenu.Name
+                                @if (@SubMenu.IsSub != "0")
+                                {
+                                    <b class="arrow fa fa-angle-down"></b>
+                                    <b class="arrow"></b>
+                                }
+                            </a>
+                            @foreach (var SubMenuLast in SubMenu.SubMenuLast)
+                            {
+                                <ul class="submenu">
+                                    <li class="@SubMenuLast.Active">
+                                        <a href='@Url.Action("Management", "Management", new { CFN = @SubMenuLast.ConfigName ,MID = @SubMenuLast.ManagementID, TID = @SubMenuLast.ToolID ,SRD = @SubMenuLast.SRD })'>
+                                            <i class="menu-icon fa fa-caret-right"></i>
+                                            @SubMenuLast.Name
+                                        </a>
+                                    </li>
+                                </ul>
+                            }
+                        </li>
+                    }
+                }
+            </ul>
+        }
+    </li>
+    }
+</ul>

@@ -1,0 +1,121 @@
+﻿@model Book
+
+<style>
+    ._BlankRow {
+        min-height: 1rem;
+    }
+</style>
+
+@using (Html.BeginForm(FormMethod.Post, new { @id = "CNform" }))
+{
+    @Html.HiddenFor(model => model.ID, new { id = "ID" })
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <label>เลขที่หนังสือ</label>
+            @Html.TextBoxFor(model => model.BookNo, new { @class = "form-control", id = "txb_BookNo", placeholder = "เลขที่หนังสือ" })
+        </div>
+
+        <div class="col-12 col-md-6">
+            <label for="form-field-8">ปี</label>
+            @Html.TextBoxFor(model => model.BookYear, new { @class = "form-control", id = "txb_BookYear", placeholder = "ปี (พ.ศ.)" })
+        </div>
+    </div>
+    <div class="_BlankRow col-12"></div>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <label>คำนำหน้าเลขทะบียน</label>
+            @Html.TextBoxFor(model => model.GunRegIDPrefix, new { @class = "form-control", id = "txb_GunRegIDPrefix", placeholder = "คำนำหน้าเลขทะบียน" })
+        </div>
+
+        <div class="col-12 col-md-6">
+        </div>
+    </div>
+    <div class="_BlankRow col-12"></div>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <label>เลขทะเบียนเริ่มต้น</label>
+            @Html.TextBoxFor(model => model.GunRegIDStart, new { @class = "form-control", id = "txb_GunRegIDStart", placeholder = "เลขทะเบียนเริ่มต้น" })
+        </div>
+
+        <div class="col-12 col-md-6">
+            <label>เลขทะเบียนสิ้นสุด</label>
+            @Html.TextBoxFor(model => model.GunRegIDEnd, new { @class = "form-control", id = "txb_GunRegIDEnd", placeholder = "เลขทะเบียนสิ้นสุด" })
+        </div>
+    </div>
+    <div class="_BlankRow col-12"></div>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <label>ประเภทอาวุธปืน(สั้น/ยาว)</label>
+            @Html.TextBoxFor(model => model.GroupGun, new { @class = "form-control", id = "txb_GroupGun", placeholder = "ประเภทอาวุธปืน(สั้น/ยาว)" })
+        </div>
+
+        <div class="col-12 col-md-6">
+            <label>จำนวนหน้าทั้งหมด</label>
+            @Html.TextBoxFor(model => model.PageTotal, new { @class = "form-control", id = "txb_PageTotal", placeholder = "จำนวนหน้าทั้งหมด" })
+        </div>
+    </div>
+}
+
+<script type="text/javascript">
+    var ID;
+
+    function StartPratialView(_url) {
+        url = _url;
+        ID = getParamValue(_url, "ID");
+        $("#ID").val(ID);
+        if (ID != null) fnLoadDataBook(ID);
+    }
+
+    function fnLoadDataBook(ID) {
+        $.ajax({
+            type: 'GET',
+            cache: false,
+            url: '/GunRegistration/LoadDataBook',
+            data: "ID=" + ID,
+            success: function (data, textStatus, jqXHR) {
+                if (data._ErrorMessageModel.code == "OK") {
+                    $("#txb_BookNo").val(data.bookNo);
+                    $("#txb_BookYear").val(data.bookYear);
+                    $("#txb_GunRegIDPrefix").val(data.gunRegIDPrefix);
+                    $("#txb_GunRegIDStart").val(data.gunRegIDStart);
+                    $("#txb_GunRegIDEnd").val(data.gunRegIDEnd);
+                    $("#txb_GroupGun").val(data.groupGun);
+                    $("#txb_PageTotal").val(data.pageTotal);
+                }
+                else {
+                    showmessage(data._ErrorMessageModel.message);
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                showmessage(jqXHR, textStatus, errorThrown);
+            }
+        });
+    }
+    function SaveBook() {
+        var ERROR = document.getElementById('ERROR');
+        ERROR.innerHTML = "";
+
+        var data = $('#CNform').serialize();
+        fnLoadingModal();
+        $.ajax({
+            type: 'POST',
+            cache: false,
+            url: '/GunRegistration/SaveBook',
+            data: data,
+            success: function (data, textStatus, jqXHR) {
+                if (data._ErrorMessageModel.code == "OK")
+                    showmessage(data._ErrorMessageModel.message, refreshAllData);
+                else {
+                    ERROR.innerHTML = data._ErrorMessageModel.message;
+                    fnUnLoadingModal();
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+
+            }
+        });
+    }
+</script>

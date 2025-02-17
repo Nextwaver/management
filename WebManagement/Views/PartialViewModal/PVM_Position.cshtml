@@ -1,0 +1,365 @@
+﻿@model PositionManage
+@{
+    MenuList MenuConfig = new MenuList();
+    MenuConfig = WebManagement.Models.MenuManage.MenuConfig;
+}
+<style>
+    .checkstyle {
+        cursor: pointer;
+        height: 30px;
+        min-width: 30px;
+    }
+</style>
+
+@using (Html.BeginForm(FormMethod.Post, new { @id = "CNform" }))
+{
+    @Html.HiddenFor(model => model.ID, new { id = "ID" })
+    <table align="center">
+        <tr>
+            <td>
+                <div ng-app="myApp" ng-controller="StartApp">
+                    <div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label>รหัสตำแหน่ง</label>
+                                </td>
+                                <td style="width: 5px"></td>
+                                <td>
+                                    @Html.TextBoxFor(model => model.PositionCode, new { @class = "form-control", id = "txb_Code", placeholder = "code", @readonly = "readonly" })
+                                    @*<input type="text" id="txbCode" placeholder="code" style="width: 100px" readonly />*@
+                                </td>
+                                <td style="width: 5px"></td>
+                                <td>
+                                    <label>ชื่อตำแหน่ง</label>
+                                </td>
+                                <td style="width: 5px"></td>
+                                <td>
+                                    @Html.TextBoxFor(model => model.PositionName, new { @class = "form-control", id = "txb_Name", placeholder = "Position Name" })
+                                    @*<input type="text" id="txbName" placeholder="name" style="width: 200px" />*@
+                                </td>
+                                <td rowspan="3" style="width: 5px"></td>
+                                <td rowspan="3" style="width: 60px">
+                                    <a class="btn btn-app btn-danger btn-sm" onclick="fnClear()">
+                                        <i class="ace-icon fa fa-refresh bigger-200"></i>
+                                        ล้าง
+                                    </a>
+                                </td>
+                                <td rowspan="3" style="width: 60px">
+                                    <a class="btn btn-app btn-info btn-sm" onclick="fnSave()">
+                                        <i class="ace-icon fa fa-save bigger-200"></i>
+                                        บันทึก
+                                    </a>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td style="height: 5px"></td>
+                            </tr>
+                            @*
+                                <tr>
+                                    <td>
+                                        <label>หัวหน้า</label>
+                                    </td>
+                                    <td style="width: 5px"></td>
+                                    <td colspan="5">
+                                        <select id="parent" class="multiselect" style="width: 100%">
+                                            <option value="">-- ไม่มีหัวหน้า --</option>
+                                            <option ng-value="x.CODE" ng-repeat="x in POSITION" ng-selected="{{ x.CHECK=='1' }}">
+                                                {{ x.NAME }}
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>*@
+                            <tr>
+                                <td style="height: 10px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <label>สิทธิ์การใช้งาน</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    @Html.HiddenFor(model => model.MenuActive, new { id = "MenuActive" })
+                    <div class="dd dd-draghandle" style="background-color: black; border: 1px solid black;">
+                        <ol class="dd-list">
+                            @foreach (var Menu in MenuConfig.Menu)
+                            {
+                                <li class="dd-item dd2-item">
+                                    <div class="dd2-handle">
+                                        @if (Menu.Check == "1")
+                                        {
+                                            <input type="checkbox" class="checkstyle" id="chb-@Menu.ID" checked="checked" />
+                                        }
+                                        else
+                                        {
+                                            <input type="checkbox" class="checkstyle" id="chb-@Menu.ID" />
+                                        }
+                                    </div>
+
+                                    <div class="dd2-content">
+                                        @Menu.Name
+                                        @if (Menu.SubMenuList.Count != 0)
+                                        {
+                                            <i class="pull-right bigger-130 ace-icon fa fa-desktop info"></i>
+                                        }
+                                    </div>
+                                    @if (Menu.SubMenuList.Count != 0)
+                                    {
+                                        <ol class="dd-list">
+                                            @foreach (var SubMenuList in Menu.SubMenuList)
+                                            {
+                                                @foreach (var SubMenu in SubMenuList.SubMenu)
+                                                {
+                                                    <li class="dd-item dd2-item">
+                                                        <div class="dd2-handle">
+                                                            @if (SubMenu.Check == "1")
+                                                            {
+                                                                <input type="checkbox" class="checkstyle" id="chb-@SubMenu.ID" checked="checked" />
+                                                            }
+                                                            else
+                                                            {
+                                                                <input type="checkbox" class="checkstyle" id="chb-@SubMenu.ID" />
+                                                            }
+                                                        </div>
+
+                                                        <div class="dd2-content">
+                                                            @SubMenu.Name
+                                                            @if (SubMenu.SubMenuLast.Count != 0)
+                                                            {
+                                                                <i class="pull-right bigger-130 ace-icon fa fa-bookmark info"></i>
+                                                            }
+                                                        </div>
+
+                                                        <ol class="dd-list">
+                                                            @foreach (var SubMenuLast in SubMenu.SubMenuLast)
+                                                            {
+                                                                <li class="dd-item dd2-item">
+                                                                    <div class="dd2-handle">
+                                                                        @if (SubMenuLast.Check == "1")
+                                                                        {
+                                                                            <input type="checkbox" class="checkstyle" id="chb-@SubMenuLast.ID" checked="checked" />
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            <input type="checkbox" class="checkstyle" id="chb-@SubMenuLast.ID" />
+                                                                        }
+
+                                                                    </div>
+                                                                    <div class="dd2-content">@SubMenuLast.Name</div>
+                                                                </li>
+                                                            }
+                                                        </ol>
+                                                    </li>
+                                                }
+
+                                            }
+                                        </ol>
+                                    }
+
+                                </li>
+                            }
+                        </ol>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+}
+
+
+
+<script type="text/javascript">
+    var ID;
+    var url;
+
+    function StartPratialView(_url) {
+       url = _url;
+       ID = getParamValue(url, "ID");
+       $("#ID").val(ID);
+        
+       if (ID != null) fnLoadDataPosition(ID);
+ 
+        // setTimeout(loadsidebar, 100)
+    }
+
+    function loadsidebar() {
+        jQuery(function ($) {
+
+            $('.dd').nestable();
+        });
+
+    }
+    var MenuSp;
+    function fnLoadDataPosition() {
+        fnLoadingModal();
+         $.ajax({
+          type: 'GET',
+          cache: false,
+          url: '/Account/LoadDataMenuActive',
+          data: "ID=" + ID,
+             success: function (data, textStatus, jqXHR) {
+ 
+                 $("#txb_Code").val(data.positionCode);
+                 $("#txb_Name").val(data.positionName);
+
+              MenuSp = data.menuActive.split(",");
+ 
+              if (data._ErrorMessageModel.code == "OK") {
+                 @foreach (var Menu in MenuConfig.Menu)
+                        {
+                               <text>
+                                         if (filterMenu("@Menu.ID") == true) {
+                                             document.getElementById("chb-@Menu.ID").checked = true;
+                                         }
+                                         else {
+                                               document.getElementById("chb-@Menu.ID").checked = false;
+                                         }
+                                </text>
+                               @foreach (var SubMenuList in Menu.SubMenuList)
+                                {
+                                           @foreach (var SubMenu in SubMenuList.SubMenu)
+                                            {
+                                                       <text>
+                                                       if (filterMenu("@SubMenu.ID") == true) {
+                                                           document.getElementById("chb-@SubMenu.ID").checked = true;
+                                                       }
+                                                       else {
+                                                             document.getElementById("chb-@SubMenu.ID").checked = false;
+                                                       }
+                                                        </text>
+                                                   @foreach (var SubMenuLast in SubMenu.SubMenuLast)
+                                                    {
+                                                               <text>
+                                                                   if (filterMenu("@SubMenuLast.ID") == true) {
+                                                                      document.getElementById("chb-@SubMenuLast.ID").checked = true;
+                                                                  }
+                                                                  else {
+                                                                        document.getElementById("chb-@SubMenuLast.ID").checked = false;
+                                                                  }
+                                                             </text>
+
+                                                    }
+                                           }
+                               }
+                        }
+
+              }
+              else {
+                  showmessage(data._ErrorMessageModel.message);
+                 }
+                 fnUnLoadingModal();
+          },
+          error: function (jqXHR, textStatus, errorThrown) {
+              showmessage(jqXHR, textStatus, errorThrown);
+          }
+      });
+    }
+
+    function filterMenu(ID) {
+        var filterResult = false;
+        var filter = MenuSp.filter(MenuSp => MenuSp == ID);
+
+        if (filter.length > 0) filterResult = true;
+        return filterResult;
+    }
+
+    function fnSave() {
+
+        var ID_List = "";
+        var Name = document.getElementById('txb_Name').value;
+
+        var ERROR = document.getElementById('ERROR');
+            ERROR.innerHTML = "";
+            if (Name == "") {
+                ERROR.innerHTML = "โปรดระบุชื่อตำแหน่ง";
+                return;
+            }
+
+
+         @foreach (var Menu in MenuConfig.Menu)
+         {
+                <text>
+                          if (document.getElementById("chb-@Menu.ID").checked) {
+                              if (ID_List == "") ID_List = "@Menu.ID";
+                              else ID_List += "," + "@Menu.ID";
+                          }
+                 </text>
+                @foreach (var SubMenuList in Menu.SubMenuList)
+                 {
+                            @foreach (var SubMenu in SubMenuList.SubMenu)
+                             {
+                                        <text>
+                                            if (document.getElementById("chb-@SubMenu.ID").checked) {
+                                                if (ID_List == "") ID_List = "@SubMenu.ID";
+                                                else ID_List += "," + "@SubMenu.ID";
+                                            }
+                                         </text>
+                                    @foreach (var SubMenuLast in SubMenu.SubMenuLast)
+                                     {
+                                                <text>
+                                                        if (document.getElementById("chb-@SubMenuLast.ID").checked) {
+                                                            if (ID_List == "") ID_List = "@SubMenuLast.ID";
+                                                            else ID_List += "," + "@SubMenuLast.ID";
+                                                        }
+                                                  </text>
+
+                                     }
+                            }
+                }
+         }
+
+
+             var ERROR = document.getElementById('ERROR');
+        ERROR.innerHTML = "";
+        $("#MenuActive").val(ID_List);
+          var data = $('#CNform').serialize();
+             fnLoadingModal();
+                $.ajax({
+                     type: 'POST',
+                    cache: false,
+                    url: '/Account/SavePosition',
+                    data: data,
+                    success: function (data, textStatus, jqXHR) {
+                     if (data._ErrorMessageModel.code == "OK")
+                         showmessage(data._ErrorMessageModel.message, refreshAllData);
+                     else {
+                         ERROR.innerHTML = data._ErrorMessageModel.message;
+                           fnUnLoadingModal();
+                        }
+                     fnUnLoadingModal();
+                 },
+            error: function (jqXHR, textStatus, errorThrown) {
+
+                 }
+                });
+         }
+ 
+    function fnClear() {
+          $("#txb_Name").val("");
+
+         @foreach (var Menu in MenuConfig.Menu)
+         {
+                <text>
+                    document.getElementById("chb-@Menu.ID").checked = false;
+                 </text>
+                @foreach (var SubMenuList in Menu.SubMenuList)
+                 {
+                            @foreach (var SubMenu in SubMenuList.SubMenu)
+                             {
+                                        <text>
+                                          document.getElementById("chb-@SubMenu.ID").checked = false;
+                                         </text>
+                                    @foreach (var SubMenuLast in SubMenu.SubMenuLast)
+                                     {
+                                                <text>
+                                                    document.getElementById("chb-@SubMenuLast.ID").checked = false;
+                                              </text>
+
+                                     }
+                            }
+                }
+         }
+     }
+</script>

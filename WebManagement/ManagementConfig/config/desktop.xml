@@ -1,0 +1,6 @@
+﻿<config>
+  <menus ID="0" Name="การตั้งค่า" Icon="menu-icon fa fa-eye" ManagementName="Administrator" Type="Management" />
+  <menus ID="1" Name="ข้อมูลทะเบียนปืน" Icon="menu-icon fa fa-book" ManagementName="DocumentManage" Type="Management" />
+  <menus ID="2" Name="Page" Icon="menu-icon fa fa-book" Type="Url" Url="PageView/PV_Empty">
+  </menus>
+</config>
