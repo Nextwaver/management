@@ -76,8 +76,28 @@ namespace WebManagement
             {
                 app.UseExceptionHandler("/Error");
             }
-            //  app.UseExceptionHandler("/Error");
+           
 
+            app.UseStaticFiles();
+
+            app.UseRouting();
+            app.UseCors();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.UseSession();
+            /*
+            app.UseEndpoints(endpoints => {
+                endpoints.MapControllers();
+            });
+            */
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
+            });
+
+            /*
             app.UseStaticFiles();
 
             app.UseAuthentication();
@@ -90,6 +110,7 @@ namespace WebManagement
                     name: "default",
                     template: "{controller=Account}/{action=Login}/{id?}");
             });
+            */
         }
     }
 }

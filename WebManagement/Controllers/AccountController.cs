@@ -18,13 +18,13 @@ namespace WebManagement.Controllers
 {
     public class AccountController : Controller
     {
+        string APIService = "https://localhost:5001/WS/V1/";
         private ServiceController sv;
         public AccountController(IConfiguration configuration)
-        {
-            
+        {            
             Configuration = configuration;
-            var ApiUrl = Environment.GetEnvironmentVariable("serverUrl");
-            Configuration["APIService:url"] = ApiUrl;
+            //var ApiUrl = Environment.GetEnvironmentVariable("serverUrl");
+            //APIService = "https://localhost:5001/WS/V1/";
             sv = new ServiceController(configuration);
         }
         public IConfiguration Configuration { get; }
@@ -77,7 +77,7 @@ namespace WebManagement.Controllers
             String NCS_Encrypt = sv.Encrypt(NCS_S.ExportString());
             String NWS_Encrypt = sv.Encrypt(NWS.ExportString());
 
-            String url = Configuration["APIService:url"] + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
+            String url = APIService + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
             DataTable dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
             if (dt.Rows.Count == 0)
             {
@@ -166,7 +166,7 @@ namespace WebManagement.Controllers
             NWS.Where = "";
             NWS.Where += "[@USERNAME@ = '" + userID + "']";
             string NWS_Encrypt = sv.Encrypt(NWS.ExportString());
-            String url = Configuration["APIService:url"] + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NWheres_String=" + NWS.ExportString() + "&User=system";
+            String url = APIService + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NWheres_String=" + NWS.ExportString() + "&User=system";
             table = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
 
             return table;
@@ -199,7 +199,7 @@ namespace WebManagement.Controllers
 
             string NCS_Encrypt = sv.Encrypt(NCS.ExportString());
 
-            String Insert = Configuration["APIService:url"] + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
+            String Insert = APIService + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
 
             JObject json = sv.ConvertJsonStringToJObject(sv.CallAPI(Insert, "POST"));
             return json;
@@ -232,7 +232,7 @@ namespace WebManagement.Controllers
             String NCS_Encrypt = sv.Encrypt(NCS.ExportString());
             String NWS_Encrypt = sv.Encrypt(NWS.ExportString());
 
-            String url =  Configuration["APIService:url"] + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
+            String url =  APIService + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
             DataTable dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
 
             if (dt.Rows.Count > 0)
@@ -258,7 +258,7 @@ namespace WebManagement.Controllers
                 NCS.Add(new NextwaverDB.NColumn("CREATE_DATE", DateTime.Now.ToString("dd/MM/yyyy")));
                 NCS.Add(new NextwaverDB.NColumn("CREATE_BY", "system"));
 
-                url =  Configuration["APIService:url"] + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
+                url =  APIService + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
             }
             else
             {
@@ -267,7 +267,7 @@ namespace WebManagement.Controllers
                 NWS = new NextwaverDB.NWheres();
                 NWS.Add("ID", acm.ID);
 
-                url =  Configuration["APIService:url"] + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=&User=system";
+                url =  APIService + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=&User=system";
             }
 
             json = new JObject(sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST")));
@@ -289,7 +289,7 @@ namespace WebManagement.Controllers
             string NWS_Encrypt = sv.Encrypt(NWS.ExportString());
             try
             {
-                String url =  Configuration["APIService:url"] + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NWheres_String=" + NWS.ExportString() + "&User=system";
+                String url =  APIService + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NWheres_String=" + NWS.ExportString() + "&User=system";
                 DataTable dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
 
                 acm.Titile = "" + dt.Rows[0]["TITLE"];
@@ -331,7 +331,7 @@ namespace WebManagement.Controllers
             String NCS_Encrypt = sv.Encrypt(NCS.ExportString());
             String NWS_Encrypt = sv.Encrypt(NWS.ExportString());
 
-            String url = Configuration["APIService:url"] + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
+            String url = APIService + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
             DataTable dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
 
             if (dt.Rows.Count > 0)
@@ -350,7 +350,7 @@ namespace WebManagement.Controllers
                 NCS.Add(new NextwaverDB.NColumn("CREATE_DATE", DateTime.Now.ToString("dd/MM/yyyy")));
                 NCS.Add(new NextwaverDB.NColumn("CREATE_BY", "system"));
 
-                url = Configuration["APIService:url"] + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
+                url = APIService + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
 
                 JObject json = sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST"));
 
@@ -369,7 +369,7 @@ namespace WebManagement.Controllers
                 NWS = new NextwaverDB.NWheres();
                 NWS.Add("ID", pm.ID);
 
-                url = Configuration["APIService:url"] + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=&User=system";
+                url = APIService + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=&User=system";
 
                 JObject json = sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST"));
 
@@ -391,7 +391,7 @@ namespace WebManagement.Controllers
             String NCS_Encrypt = sv.Encrypt(NCS_S.ExportString());
             String NWS_Encrypt = sv.Encrypt(NWS.ExportString());
  
-            String url = Configuration["APIService:url"] + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
+            String url = APIService + "SelectByColumnAndWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_encrypt=" + NCS_Encrypt + "&NWheres_encrypt=" + NWS_Encrypt + "&User=system";
             DataTable dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
 
             int MaxID = 001;
@@ -426,7 +426,7 @@ namespace WebManagement.Controllers
             string NWS_Encrypt = sv.Encrypt(NWS.ExportString());
             try
             {
-                String url = Configuration["APIService:url"] + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NWheres_String=" + NWS.ExportString() + "&User=system";
+                String url = APIService + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NWheres_String=" + NWS.ExportString() + "&User=system";
                 DataTable dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
 
                pm.PositionCode = "" + dt.Rows[0]["POSITION_CODE"];
@@ -460,7 +460,7 @@ namespace WebManagement.Controllers
                 String NWS_Encrypt = sv.Encrypt(NWS.ExportString());
                 try
                 {
-                    url = Configuration["APIService:url"] + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NWheres_String=" + NWS.ExportString() + "&User=system";
+                    url = APIService + "SelectAllColumnByWhere?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NWheres_String=" + NWS.ExportString() + "&User=system";
                     DataTable tmp_dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
                     tmpPARENT_CODE = "" + tmp_dt.Rows[0]["PARENT_CODE"];
                 }
@@ -471,7 +471,7 @@ namespace WebManagement.Controllers
                     return Json(pl);
                 }
 
-                url = Configuration["APIService:url"] + "SelectAll?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=position&User=system";
+                url = APIService + "SelectAll?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=position&User=system";
                 DataTable dt = sv.ConvertJsonToDatatableLinq(sv.CallAPI(url, "GET"));
 
 

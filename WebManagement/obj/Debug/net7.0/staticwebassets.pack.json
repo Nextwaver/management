@@ -1,0 +1,1917 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\Custom\\custom.css",
+      "PackagePath": "staticwebassets\\Custom\\custom.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\Custom\\custom.js",
+      "PackagePath": "staticwebassets\\Custom\\custom.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\ToolsConfig\\command.js",
+      "PackagePath": "staticwebassets\\ToolsConfig\\command.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\avatars\\avatar.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\avatar1.png",
+      "PackagePath": "staticwebassets\\assets\\avatars\\avatar1.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\avatar2.png",
+      "PackagePath": "staticwebassets\\assets\\avatars\\avatar2.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\avatar3.png",
+      "PackagePath": "staticwebassets\\assets\\avatars\\avatar3.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\avatar4.png",
+      "PackagePath": "staticwebassets\\assets\\avatars\\avatar4.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\avatar5.png",
+      "PackagePath": "staticwebassets\\assets\\avatars\\avatar5.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\profile-pic.jpg",
+      "PackagePath": "staticwebassets\\assets\\avatars\\profile-pic.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\avatars\\user.jpg",
+      "PackagePath": "staticwebassets\\assets\\avatars\\user.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ace-fonts.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-fonts.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ace-ie.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-ie.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ace-part2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-part2.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ace-rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-rtl.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ace-skins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-skins.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ace.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ace.onpage-help.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace.onpage-help.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\bootstrap-datepicker3.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datepicker3.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\bootstrap-datetimepicker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datetimepicker.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\bootstrap-duallistbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-duallistbox.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\bootstrap-multiselect.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-multiselect.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\bootstrap-timepicker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-timepicker.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\assets\\css\\chosen-sprite.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\assets\\css\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\chosen.css",
+      "PackagePath": "staticwebassets\\assets\\css\\chosen.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\colorbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\colorbox.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\colorpicker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\colorpicker.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\assets\\css\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dropzone.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fullcalendar.print.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\border.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\border.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\border1.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\border1.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\border2.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\border2.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\controls.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\controls.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderBottomCenter.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderBottomCenter.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderBottomLeft.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderBottomLeft.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderBottomRight.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderBottomRight.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderMiddleLeft.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderMiddleLeft.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderMiddleRight.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderMiddleRight.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderTopCenter.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderTopCenter.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderTopLeft.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderTopLeft.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\ie6\\borderTopRight.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ie6\\borderTopRight.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\loading_background.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\loading_background.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\meteorshower.jpg",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\meteorshower.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\meteorshower2.jpg",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\meteorshower2.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\overlay.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\overlay.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\pattern.jpg",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\pattern.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\pattern.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\pattern.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\spritemap.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\spritemap.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\images\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\spritemap@2x.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\img\\alpha.png",
+      "PackagePath": "staticwebassets\\assets\\css\\img\\alpha.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\img\\hue.png",
+      "PackagePath": "staticwebassets\\assets\\css\\img\\hue.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\img\\saturation.png",
+      "PackagePath": "staticwebassets\\assets\\css\\img\\saturation.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\jquery-ui.custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.custom.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\jquery.gritter.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.gritter.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ace-extra.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ace-extra.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ace-features.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ace-features.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ace-frontend.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ace-frontend.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ace-nav.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ace-nav.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ace-responsive.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ace-responsive.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ace-rtl.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ace-rtl.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ace.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ace.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\basic.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\basic.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\alerts.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\alerts.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\badges.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\badges.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\bootstrap.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\bootstrap.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\breadcrumbs.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\breadcrumbs.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\button-groups.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\button-groups.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\buttons.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\buttons.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\carousel.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\carousel.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\close.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\close.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\code.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\code.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\component-animations.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\component-animations.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\dropdowns.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\dropdowns.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\forms.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\forms.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\glyphicons.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\glyphicons.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\grid.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\grid.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\input-groups.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\input-groups.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\jumbotron.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\jumbotron.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\labels.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\labels.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\list-group.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\list-group.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\media.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\media.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\alerts.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\alerts.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\background-variant.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\background-variant.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\border-radius.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\border-radius.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\buttons.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\buttons.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\center-block.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\center-block.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\clearfix.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\clearfix.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\forms.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\forms.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\gradients.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\gradients.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\grid-framework.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\grid-framework.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\grid.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\grid.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\hide-text.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\hide-text.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\image.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\image.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\labels.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\labels.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\list-group.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\list-group.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\nav-divider.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\nav-divider.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\nav-vertical-align.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\nav-vertical-align.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\opacity.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\opacity.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\pagination.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\pagination.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\panels.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\panels.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\progress-bar.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\progress-bar.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\reset-filter.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\reset-filter.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\reset-text.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\reset-text.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\resize.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\resize.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\responsive-visibility.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\responsive-visibility.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\size.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\size.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\tab-focus.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\tab-focus.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\table-row.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\table-row.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\text-emphasis.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\text-emphasis.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\text-overflow.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\text-overflow.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\mixins\\vendor-prefixes.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\mixins\\vendor-prefixes.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\modals.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\modals.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\navbar.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\navbar.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\navs.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\navs.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\normalize.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\normalize.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\pager.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\pager.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\pagination.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\pagination.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\panels.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\panels.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\popovers.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\popovers.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\print.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\print.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\progress-bars.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\progress-bars.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\responsive-embed.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\responsive-embed.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\responsive-utilities.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\responsive-utilities.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\scaffolding.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\scaffolding.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\tables.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\tables.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\theme.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\theme.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\thumbnails.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\thumbnails.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\tooltip.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\tooltip.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\type.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\type.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\utilities.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\utilities.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\variables.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\variables.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bootstrap\\wells.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bootstrap\\wells.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\breadcrumbs.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\breadcrumbs.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\bs3-reset.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\bs3-reset.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\buttons.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\buttons.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\dropdown.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\dropdown.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\dropdown\\colorpicker.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\dropdown\\colorpicker.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\dropdown\\navbar-dropdown.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\dropdown\\navbar-dropdown.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\dropdown\\navbar-tabbed-dropdown.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\dropdown\\navbar-tabbed-dropdown.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\ext\\bootstrap-tag.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\ext\\bootstrap-tag.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\fonts-rel.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\fonts-rel.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\fonts.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\fonts.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\footer.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\footer.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\form.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\form.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\form\\checkbox.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\form\\checkbox.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\form\\file.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\form\\file.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\gallery.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\gallery.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\general.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\general.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\icon-animated.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\icon-animated.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\infobox.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\infobox.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\items.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\items.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\label-badge.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\label-badge.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\modal.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\modal.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\navbar\\collapsible.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\navbar\\collapsible.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\navbar\\navbar-menu-form.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\navbar\\navbar-menu-form.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\navbar\\toggle-button.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\navbar\\toggle-button.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\navbar\\user-buttons-move-down.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\navbar\\user-buttons-move-down.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\navbar\\user-buttons.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\navbar\\user-buttons.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\navbar\\user-dropdown-position.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\navbar\\user-dropdown-position.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\navbar\\user-menu.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\navbar\\user-menu.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\onpage-help.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\onpage-help.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\other.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\other.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.error.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.error.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.inbox.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.inbox.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.invoice.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.invoice.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.login.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.login.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.pricing.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.pricing.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.profile.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.profile.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.search.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.search.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\page.timeline.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\page.timeline.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\print.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\print.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\progressbar.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\progressbar.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\scroll.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\scroll.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\searchbox.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\searchbox.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\active.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\active.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\compact.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\compact.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\ff_fix.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\ff_fix.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\highlight.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\highlight.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\horizontal.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\horizontal.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\hover.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\hover.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\min.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\min.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\multiple.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\multiple.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\old-toggle-button.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\old-toggle-button.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\responsive-1.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\responsive-1.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\responsive-2.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\responsive-2.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\responsive-3.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\responsive-3.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\shortcuts-toggle.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\shortcuts-toggle.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\sidebar-fixed.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\sidebar-fixed.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\sidebar\\sub-arrow.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\sidebar\\sub-arrow.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\skins\\empty.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\skins\\empty.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\skins\\no-skin.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\skins\\no-skin.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\skins\\skin-1.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\skins\\skin-1.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\skins\\skin-2.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\skins\\skin-2.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\skins\\skin-3.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\skins\\skin-3.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\skins\\skins.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\skins\\skins.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\tab-accordion.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\tab-accordion.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\tables.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\tables.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-calendar.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-calendar.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-chosen.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-chosen.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-colorbox.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-colorbox.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-dataTables.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-dataTables.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-date.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-date.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-dropzone.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-dropzone.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-duallist-multiselect.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-duallist-multiselect.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-editable.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-editable.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-fuelux.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-fuelux.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-gritter.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-gritter.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-jqgrid.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-jqgrid.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-jquery-ui.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-jquery-ui.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-nestable.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-nestable.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-raty.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-raty.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-select2.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-select2.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-slider.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-slider.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-typeahead.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-typeahead.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\thirdparty-wysiwyg.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\thirdparty-wysiwyg.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\tooltip-popover.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\tooltip-popover.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\utility.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\utility.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\variables.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\less\\widget.less",
+      "PackagePath": "staticwebassets\\assets\\css\\less\\widget.less"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\pace.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pace.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\prettify.css",
+      "PackagePath": "staticwebassets\\assets\\css\\prettify.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\select2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\select2.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\css\\ui.jqgrid.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ui.jqgrid.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\OpenSans-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-300.woff"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\OpenSans-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\OpenSans-400.woff"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\fonts\\readme",
+      "PackagePath": "staticwebassets\\assets\\fonts"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\back_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\images\\back_disabled.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\back_enabled.png",
+      "PackagePath": "staticwebassets\\assets\\images\\back_enabled.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\back_enabled_hover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\back_enabled_hover.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\email1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email1.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\email2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email2.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\email3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email3.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\email4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email4.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\forward_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\images\\forward_disabled.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\forward_enabled.png",
+      "PackagePath": "staticwebassets\\assets\\images\\forward_enabled.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\forward_enabled_hover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\forward_enabled_hover.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-1.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-2.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\image-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-3.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\image-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-4.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\image-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-5.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\image-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-6.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-4.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\thumb-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-5.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\gallery\\thumb-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-6.jpg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\spritemap.png",
+      "PackagePath": "staticwebassets\\assets\\images\\spritemap.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\images\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\assets\\images\\spritemap@2x.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\img\\clear.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clear.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\img\\glyphicons-halflings-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\glyphicons-halflings-white.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\img\\glyphicons-halflings.png",
+      "PackagePath": "staticwebassets\\assets\\img\\glyphicons-halflings.png"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace-elements.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace-elements.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace-extra.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace-extra.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace-require.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace-require.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.ajax-content.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.ajax-content.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.auto-container.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.auto-container.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.auto-padding.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.auto-padding.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.onpage-help.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.onpage-help.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.searchbox-autocomplete.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.searchbox-autocomplete.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.settings-rtl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.settings-rtl.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.settings-skin.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.settings-skin.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.settings.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.settings.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.sidebar-scroll-1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.sidebar-scroll-1.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.sidebar-scroll-2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.sidebar-scroll-2.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.sidebar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.sidebar.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.submenu-hover.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.submenu-hover.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.touch-drag.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.touch-drag.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.widget-box.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.widget-box.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\ace.widget-on-reload.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\ace.widget-on-reload.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.aside.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.aside.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.colorpicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.colorpicker.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.fileinput.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.fileinput.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.onpage-help.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.onpage-help.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.scroller.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.scroller.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.spinner.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.spinner.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.treeview.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.treeview.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.typeahead.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.typeahead.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.wizard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.wizard.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\elements.wysiwyg.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\elements.wysiwyg.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\readme",
+      "PackagePath": "staticwebassets\\assets\\js\\ace"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\ace\\scripts.json",
+      "PackagePath": "staticwebassets\\assets\\js\\ace\\scripts.json"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\additional-methods.js",
+      "PackagePath": "staticwebassets\\assets\\js\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\autosize.js",
+      "PackagePath": "staticwebassets\\assets\\js\\autosize.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\bootbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootbox.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\bootstrap-multiselect.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-multiselect.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\bootstrap-tag.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-tag.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\bootstrap-wysiwyg.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-wysiwyg.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\chosen.jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\chosen.jquery.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\License.txt",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\License.txt"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.bootstrap.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.colVis.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.colVis.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.flash.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.flash.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.foundation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.foundation.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.html5.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.html5.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.jqueryui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.jqueryui.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.print.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\buttons.print.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\js\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\js\\dataTables.buttons.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Buttons\\swf\\flashExport.swf",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Buttons\\swf\\flashExport.swf"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Select\\License.txt",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Select\\License.txt"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\extensions\\Select\\js\\dataTables.select.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\extensions\\Select\\js\\dataTables.select.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\jquery.dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\jquery.dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dataTables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\date-time\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\date-time\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\date-time\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\date-time\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\date-time\\bootstrap-timepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\date-time\\bootstrap-timepicker.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\date-time\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\date-time\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\date-time\\moment.js",
+      "PackagePath": "staticwebassets\\assets\\js\\date-time\\moment.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\dropzone.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dropzone.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\excanvas.js",
+      "PackagePath": "staticwebassets\\assets\\js\\excanvas.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\assets\\js\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\assets\\js\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\fuelux\\fuelux.spinner.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fuelux\\fuelux.spinner.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\fuelux\\fuelux.tree.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fuelux\\fuelux.tree.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\fuelux\\fuelux.wizard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fuelux\\fuelux.wizard.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\holder.js",
+      "PackagePath": "staticwebassets\\assets\\js\\holder.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\html5shiv-printshiv.js",
+      "PackagePath": "staticwebassets\\assets\\js\\html5shiv-printshiv.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\assets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-ar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-ar.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-bg.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-bg.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-ca.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-ca.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-cn.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-cn.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-cs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-cs.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-de.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-de.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-dk.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-dk.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-el.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-el.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-en.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-en.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-es.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-es.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-fa.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-fa.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-fi.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-fi.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-fr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-fr.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-gl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-gl.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-he.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-he.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-hr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-hr.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-hu.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-hu.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-id.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-id.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-is.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-is.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-it.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-it.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-ja.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-ja.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-kr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-kr.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-lt.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-lt.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-me.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-me.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-nl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-nl.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-no.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-no.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-pl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-pl.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-pt-br.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-pt-br.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-pt.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-pt.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-ro.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-ro.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-ru.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-ru.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-sk.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-sk.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-sr-latin.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-sr-latin.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-sr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-sr.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-sv.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-sv.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-th.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-th.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-tr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-tr.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-tw.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-tw.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-ua.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-ua.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-uk.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-uk.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\i18n\\grid.locale-vi.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\i18n\\grid.locale-vi.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jqGrid\\jquery.jqGrid.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqGrid\\jquery.jqGrid.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery-ui.custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.custom.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.bootstrap-duallistbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.bootstrap-duallistbox.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.colorbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.colorbox.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.easypiechart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.easypiechart.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.gritter.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.gritter.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.hotkeys.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.hotkeys.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.inputlimiter.1.3.1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.inputlimiter.1.3.1.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.knob.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.maskedinput.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.maskedinput.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.mobile.custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mobile.custom.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.mousewheel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mousewheel.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nestable.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.raty.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.raty.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.sparkline.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.sparkline.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.ui.touch-punch.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.ui.touch-punch.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\jquery1x.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery1x.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\markdown\\bootstrap-markdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\markdown\\bootstrap-markdown.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\markdown\\markdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\markdown\\markdown.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\markdown\\to-markdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\markdown\\to-markdown.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\pace.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pace.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\pace1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pace1.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\prettify.js",
+      "PackagePath": "staticwebassets\\assets\\js\\prettify.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\require.js",
+      "PackagePath": "staticwebassets\\assets\\js\\require.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\respond.js",
+      "PackagePath": "staticwebassets\\assets\\js\\respond.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\select2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\select2.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\spin.js",
+      "PackagePath": "staticwebassets\\assets\\js\\spin.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\typeahead.jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\typeahead.jquery.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\x-editable\\ace-editable.js",
+      "PackagePath": "staticwebassets\\assets\\js\\x-editable\\ace-editable.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\assets\\js\\x-editable\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\assets\\js\\x-editable\\bootstrap-editable.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\images\\banner1.svg",
+      "PackagePath": "staticwebassets\\images\\banner1.svg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\images\\banner2.svg",
+      "PackagePath": "staticwebassets\\images\\banner2.svg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\images\\banner3.svg",
+      "PackagePath": "staticwebassets\\images\\banner3.svg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\images\\banner4.svg",
+      "PackagePath": "staticwebassets\\images\\banner4.svg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.bower.json"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.bower.json"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.bower.json"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\.bower.json"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\nextwaverDB\\EncryptDecrypt.dll",
+      "PackagePath": "staticwebassets\\nextwaverDB\\EncryptDecrypt.dll"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\nextwaverDB\\EncryptDecrypt.dll.refresh",
+      "PackagePath": "staticwebassets\\nextwaverDB\\EncryptDecrypt.dll.refresh"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\nextwaverDB\\NextwaverDB.dll",
+      "PackagePath": "staticwebassets\\nextwaverDB\\NextwaverDB.dll"
+    },
+    {
+      "Id": "D:\\dotnet_core\\GITHUB\\management\\WebManagement\\wwwroot\\nextwaverDB\\NextwaverDB.dll.refresh",
+      "PackagePath": "staticwebassets\\nextwaverDB\\NextwaverDB.dll.refresh"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebManagement.props",
+      "PackagePath": "build\\WebManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebManagement.props",
+      "PackagePath": "buildMultiTargeting\\WebManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebManagement.props",
+      "PackagePath": "buildTransitive\\WebManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
