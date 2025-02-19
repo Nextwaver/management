@@ -92,7 +92,7 @@ namespace WebManagement.Controllers
             {
                 url = Configuration["APIService:url"] + "SelectLastDocument?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&ItemId=" + bk.ID + "&User=system";
 
-                json = new JObject(sv.ConvertJsonStringToJObject(sv.CallAPI(url, "GET")));
+                json = new JObject(sv.ConvertJsonStringToJObject(sv.SCallAPI(url, "GET")));
                 xDoc.LoadXml(json["dataList"][2]["data"].ToString());
             }
 
@@ -138,7 +138,7 @@ namespace WebManagement.Controllers
                 url = Configuration["APIService:url"] + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=" + strDoc + "&User=system";
             }
 
-            json = new JObject(sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST")));
+            json = new JObject(sv.ConvertJsonStringToJObject(sv.SCallAPI(url, "POST")));
             bk._ErrorMessageModel.Code = json["dataList"][0]["data"].ToString();
             bk._ErrorMessageModel.Message = json["dataList"][1]["data"].ToString();
 
@@ -184,7 +184,7 @@ namespace WebManagement.Controllers
                         string strDocPage = xDocPage.OuterXml;
  
                         url = Configuration["APIService:url"] + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Page&NColumns_String=" + NCSPage.ExportString() + "&strDOC=" + strDocPage + "&User=" + _username;
-                        json = new JObject(sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST")));
+                        json = new JObject(sv.ConvertJsonStringToJObject(sv.SCallAPI(url, "POST")));
                         bk._ErrorMessageModel.Code = json["dataList"][0]["data"].ToString();
                         bk._ErrorMessageModel.Message = json["dataList"][1]["data"].ToString();
                     }

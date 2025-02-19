@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,7 +40,22 @@ namespace WebManagement.Controllers
             return View();
         }
 
-        public String CallAPI(String url, String MethodType)
+        public ReturnDataTable CallAPI(String url, String MethodType)
+        {
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://localhost:5001/WS/V1/");
+            var response = client.GetAsync(url).Result;
+            var json = response.Content.ReadAsStringAsync().Result;
+
+            return JsonConvert.DeserializeObject<ReturnDataTable>(json);
+        }
+        public DataTable ConvertJsonToDatatableLinq(ReturnDataTable rdt)
+        {
+            string data = rdt.Data;
+            return JsonConvert.DeserializeObject<DataTable>(data);
+        }
+
+        public String SCallAPI(String url, String MethodType)
         {
             var client = new RestClient(url);
             var request = new RestRequest();
@@ -50,7 +66,7 @@ namespace WebManagement.Controllers
             String ResultString = response.Content;
             return ResultString;
         }
-        public DataTable ConvertJsonToDatatableLinq(string jsonString)
+        public DataTable SConvertJsonToDatatableLinq(string jsonString)
         {
             var jsonLinq = JObject.Parse(jsonString);
 
@@ -90,7 +106,7 @@ namespace WebManagement.Controllers
 
             String url = Configuration["APIService:url"] + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=&User=system";
 
-            JObject json = ConvertJsonStringToJObject(CallAPI(url, "POST"));
+            JObject json = ConvertJsonStringToJObject(SCallAPI(url, "POST"));
 
             ms.Code = json["dataList"][0]["data"].ToString();
             ms.Message = json["dataList"][1]["data"].ToString();

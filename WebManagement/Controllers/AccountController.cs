@@ -18,7 +18,7 @@ namespace WebManagement.Controllers
 {
     public class AccountController : Controller
     {
-        string APIService = "https://localhost:5001/WS/V1/";
+        string APIService = "";
         private ServiceController sv;
         public AccountController(IConfiguration configuration)
         {            
@@ -201,7 +201,7 @@ namespace WebManagement.Controllers
 
             String Insert = APIService + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
 
-            JObject json = sv.ConvertJsonStringToJObject(sv.CallAPI(Insert, "POST"));
+            JObject json = sv.ConvertJsonStringToJObject(sv.SCallAPI(Insert, "POST"));
             return json;
         }
 
@@ -270,7 +270,7 @@ namespace WebManagement.Controllers
                 url =  APIService + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=" + TableName + "&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=&User=system";
             }
 
-            json = new JObject(sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST")));
+            json = new JObject(sv.ConvertJsonStringToJObject(sv.SCallAPI(url, "POST")));
             acm._ErrorMessageModel.Code = json["dataList"][0]["data"].ToString();
             acm._ErrorMessageModel.Message = json["dataList"][1]["data"].ToString();
             return Json(acm);
@@ -352,7 +352,7 @@ namespace WebManagement.Controllers
 
                 url = APIService + "InsertData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_String=" + NCS.ExportString() + "&strDOC=&User=system";
 
-                JObject json = sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST"));
+                JObject json = sv.ConvertJsonStringToJObject(sv.SCallAPI(url, "POST"));
 
                 pm._ErrorMessageModel.Code = json["dataList"][0]["data"].ToString();
                 pm._ErrorMessageModel.Message = json["dataList"][1]["data"].ToString();
@@ -371,7 +371,7 @@ namespace WebManagement.Controllers
 
                 url = APIService + "UpdateData?Connection=" + Connection + "&OfficeSpaceId=" + OfficeSpaceId + "&DatabaseName=" + DatabaseName + "&TableName=Position&NColumns_String=" + NCS.ExportString() + "&NWheres_String=" + NWS.ExportString() + "&strDOC=&User=system";
 
-                JObject json = sv.ConvertJsonStringToJObject(sv.CallAPI(url, "POST"));
+                JObject json = sv.ConvertJsonStringToJObject(sv.SCallAPI(url, "POST"));
 
                 pm._ErrorMessageModel.Code = json["dataList"][0]["data"].ToString();
                 pm._ErrorMessageModel.Message = json["dataList"][1]["data"].ToString();
